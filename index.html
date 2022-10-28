@@ -1,174 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cards do Naruto</title>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css">
 
-    <link rel="stylesheet" href="./src/css/font-awesome.css">
-</head>
+    <link rel="stylesheet" href="./src/css/font-awesome.css" />
+  </head>
 
-<body>
-
+  <body>
     <main>
+      <button class="btn">
+        <img src="src/image/rasengan.png" class="seta voltar desabilitar-seta" id="voltar" alt="rasengan"/>
+      </button>
+      <div class="cards">
 
-        <div class="cards">
+        <div class="card uzumaki ativo">
+          <div class="informacoes-topo">
+            <h1 class="titulo">Naruto</h1>
+            <span class="clan">Uzumaki</span>
+          </div>
 
-            <a href="#">
-                <img src="src/image/rasengan.png" class="seta voltar desabilitar-seta" id="voltar" alt="rasengan">
-            </a>
+          <div class="descricao-card">
+            <img class="img-card" src="src/image/naruto.png" alt="naruto" />
 
-            <div class="card uzumaki ativo">
+            <div class="info">
+              <h2 class="titulo">Informações</h2>
 
-                <div class="informacoes-topo">
-                    <h1 class="titulo">Naruto</h1>
-                    <span class="clan">Uzumaki</span>
-                </div>
-
-                <div class="descricao-card">
-                    <img src="src/image/naruto.png" alt="naruto">
-
-                    <div class="info">
-                        <h2 class="titulo">Informações</h2>
-
-                        <p>Naruto Uzumaki ( うずまきナルト , Uzumaki Naruto) é um shinobi de Konohagakure do clã Uzumaki e
-                            protagonista homônimo da franquia Naruto. Desde seu nascimento, ele se tornou jinchūriki das
-                            Nove-Caudas, um destino que o levou a ser condenado e negligenciado por toda a aldeia
-                            durante sua infância.</p>
-                    </div>
-                </div>
-
+              <p>
+                Naruto Uzumaki ( うずまきナルト , Uzumaki Naruto) é um shinobi
+                de Konohagakure do clã Uzumaki e protagonista homônimo da
+                franquia Naruto. Desde seu nascimento, ele se tornou jinchūriki
+                das Nove-Caudas, um destino que o levou a ser condenado e
+                negligenciado por toda a aldeia durante sua infância.
+              </p>
             </div>
-
-            <div class="card haruno">
-
-                <div class="informacoes-topo">
-                    <h1 class="titulo">Sakura</h1>
-                    <span class="clan">Haruno</span>
-                </div>
-
-                <div class="descricao-card">
-                    <img src="src/image/sakura.png" alt="naruto">
-
-                    <div class="info">
-                        <h2 class="titulo">Informações</h2>
-
-                        <p>
-                            Sakura Haruno (春野サクラ, Haruno Sakura) é uma kunoichi e chūnin de Konoha. Ela também é um
-                            membro do Time Kakashi, juntamente com Naruto e Sai, anteriormente com Sasuke, e tendo
-                            Kakashi como o jōnin-sensei da equipe. Sakura é uma Iryōnin muito habilidosa, visto que ela
-                            foi aluna de Tsunade.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card uchiha">
-
-                <div class="informacoes-topo">
-                    <h1 class="titulo">Sasuke</h1>
-                    <span class="clan">Uchiha</span>
-                </div>
-
-                <div class="descricao-card">
-                    <img src="src/image/sasuke.png" alt="sasuke">
-
-                    <div class="info">
-                        <h2 class="titulo">Informações</h2>
-
-                        <p>
-                            Sasuke Uchiha (うちは サスケ Uchiha Sasuke) é membro do clã Uchiha, que era uma habilidosa família
-                            de ninjas da Vila Oculta da Folha. Seu objetivo inicial é vingar a destruição de seu clã,
-                            matando seu irmão Itachi Uchiha, que assassinou quase todos sozinho.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card uchiha">
-
-                <div class="informacoes-topo">
-                    <h1 class="titulo">Itachi</h1>
-                    <span class="clan">Uchiha</span>
-                </div>
-
-                <div class="descricao-card">
-                    <img src="src/image/itachi.png" alt="sasuke">
-
-                    <div class="info">
-                        <h2 class="titulo">Informações</h2>
-
-                        <p>
-                            Itachi Uchiha (うちはイタチ Uchiha Itachi) é o irmão mais velho de Sasuke e é responsável pela
-                            morte de todos os membros de seu clã, poupando apenas Sasuke. Durante boa parte da série,
-                            ele é tratado como um ninja renegado, mas perto do momento de sua morte, o seu papel como
-                            vilão é bastante diminuído.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card uzumaki">
-
-                <div class="informacoes-topo">
-                    <h1 class="titulo">Minato</h1>
-                    <span class="clan">Uzumaki</span>
-                </div>
-
-                <div class="descricao-card">
-                    <img src="src/image/minato.png" alt="naruto">
-
-                    <div class="info">
-                        <h2 class="titulo">Informações</h2>
-
-                        <p>
-                            Minato Namikaze (波風ミナト, Namikaze Minato), conhecido como Relâmpago Amarelo de Konoha, foi um
-                            shinobi lendário que se tornou o Quarto Hokage (四代目火影, Yondaime Hokage). Morreu sacrificando
-                            sua vida durante o Ataque do Nove-Caudas em Konoha.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="card hatake">
-
-                <div class="informacoes-topo">
-                    <h1 class="titulo">Kakashi</h1>
-                    <span class="clan">Hatake</span>
-                </div>
-
-                <div class="descricao-card">
-                    <img src="src/image/kakashi.png" alt="kakashi">
-
-                    <div class="info">
-                        <h2 class="titulo">Informações</h2>
-
-                        <p>
-                            Kakashi Hatake ( はたけカカシ , Hatake Kakashi) é um shinobi de Konohagakure. Ele recebeu um Sharingan de seu ex-companheiro de equipe, Obito Uchiha, quando era mais jovem, fazendo-o ser conhecido como Kakashi o Ninja Copiador ( コピー忍者のカカシ , Kopī Ninja no Kakashi) e Kakashi do Sharingan ( 写輪眼のカカシ , Sharingan no Kakashi).
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <a href="#">
-                <img src="src/image/chidori.png" class="seta avancar" id="avancar" alt="chidori">
-            </a>
-
+          </div>
         </div>
 
+        <div class="card haruno">
+          <div class="informacoes-topo">
+            <h1 class="titulo">Sakura</h1>
+            <span class="clan">Haruno</span>
+          </div>
+
+          <div class="descricao-card">
+            <img class="img-card" src="src/image/sakura.png" alt="naruto" />
+
+            <div class="info">
+              <h2 class="titulo">Informações</h2>
+
+              <p>
+                Sakura Haruno (春野サクラ, Haruno Sakura) é uma kunoichi e
+                chūnin de Konoha. Ela também é um membro do Time Kakashi,
+                juntamente com Naruto e Sai, anteriormente com Sasuke, e tendo
+                Kakashi como o jōnin-sensei da equipe. Sakura é uma Iryōnin
+                muito habilidosa, visto que ela foi aluna de Tsunade.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card uchiha">
+          <div class="informacoes-topo">
+            <h1 class="titulo">Sasuke</h1>
+            <span class="clan">Uchiha</span>
+          </div>
+
+          <div class="descricao-card">
+            <img class="img-card" src="src/image/sasuke.png" alt="sasuke" />
+
+            <div class="info">
+              <h2 class="titulo">Informações</h2>
+
+              <p>
+                Sasuke Uchiha (うちは サスケ Uchiha Sasuke) é membro do clã
+                Uchiha, que era uma habilidosa família de ninjas da Vila Oculta
+                da Folha. Seu objetivo inicial é vingar a destruição de seu clã,
+                matando seu irmão Itachi Uchiha, que assassinou quase todos
+                sozinho.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card uchiha">
+          <div class="informacoes-topo">
+            <h1 class="titulo">Itachi</h1>
+            <span class="clan">Uchiha</span>
+          </div>
+
+          <div class="descricao-card">
+            <img class="img-card" src="src/image/itachi.png" alt="sasuke" />
+
+            <div class="info">
+              <h2 class="titulo">Informações</h2>
+
+              <p>
+                Itachi Uchiha (うちはイタチ Uchiha Itachi) é o irmão mais velho
+                de Sasuke e é responsável pela morte de todos os membros de seu
+                clã, poupando apenas Sasuke. Durante boa parte da série, ele é
+                tratado como um ninja renegado, mas perto do momento de sua
+                morte, o seu papel como vilão é bastante diminuído.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card uzumaki">
+          <div class="informacoes-topo">
+            <h1 class="titulo">Minato</h1>
+            <span class="clan">Uzumaki</span>
+          </div>
+
+          <div class="descricao-card">
+            <img class="img-card" src="src/image/minato.png" alt="naruto" />
+
+            <div class="info">
+              <h2 class="titulo">Informações</h2>
+
+              <p>
+                Minato Namikaze (波風ミナト, Namikaze Minato), conhecido como
+                Relâmpago Amarelo de Konoha, foi um shinobi lendário que se
+                tornou o Quarto Hokage (四代目火影, Yondaime Hokage). Morreu
+                sacrificando sua vida durante o Ataque do Nove-Caudas em Konoha.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hatake">
+          <div class="informacoes-topo">
+            <h1 class="titulo">Kakashi</h1>
+            <span class="clan">Hatake</span>
+          </div>
+
+          <div class="descricao-card">
+            <img class="img-card" src="src/image/kakashi.png" alt="kakashi" />
+
+            <div class="info">
+              <h2 class="titulo">Informações</h2>
+
+              <p>
+                Kakashi Hatake ( はたけカカシ , Hatake Kakashi) é um shinobi de
+                Konohagakure. Ele recebeu um Sharingan de seu ex-companheiro de
+                equipe, Obito Uchiha, quando era mais jovem, fazendo-o ser
+                conhecido como Kakashi o Ninja Copiador ( コピー忍者のカカシ ,
+                Kopī Ninja no Kakashi) e Kakashi do Sharingan ( 写輪眼のカカシ ,
+                Sharingan no Kakashi).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn">
+        <img src="src/image/chidori.png" class="seta avancar" id="avancar" alt="chidori"/>
+      </button>
     </main>
 
     <script src="src/js/index.js"></script>
-</body>
-
+  </body>
 </html>
